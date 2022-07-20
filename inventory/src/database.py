@@ -6,6 +6,6 @@ settings = Settings()
 redis = get_redis_connection(
     host=settings.redis_host,
     port=settings.redis_port,
-    password=settings.redis_password,
+    db=3,
     decode_responses=True
 )

@@ -14,7 +14,7 @@ app.add_middleware(
 
 @app.get("/")
 def index():
-  return {"Hello": "Inventory"}
+    return {"Hello": "Inventory"}
 
 
 app.include_router(router)

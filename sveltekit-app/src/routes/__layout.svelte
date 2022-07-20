@@ -5,7 +5,7 @@
 </script>
 
 <svelte:head>
-  <title>FastAPI Microservices App</title>
+  <title>-- powered by microbot --</title>
 </svelte:head>
 
 <Header />
