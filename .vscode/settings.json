@@ -1,0 +1,4 @@
+{
+  "python.languageServer": "Pylance",
+  "python.defaultInterpreterPath": "/media/ssdev/multicam/fastapi-microservices-redis-sveltekit/inventory/venv/bin/python"
+}
