@@ -5,7 +5,7 @@ export async function fetchProducts() {
   return res.json()
 }
 
-export async function deleteProduct(id: string) {
+export async function deleteProduct(id) {
   await fetch(`${import.meta.env.VITE_INVENTORY_SERVER}/products/${id}`, {
     method: 'DELETE'
   })

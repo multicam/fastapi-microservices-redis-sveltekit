@@ -1,5 +1,5 @@
 <script>
-  import { deleteProduct } from '$lib/inventory'
+  import { deleteProduct } from '$lib/inventory.js'
 
   export let products = []
 

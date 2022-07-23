@@ -2,13 +2,13 @@
   <div class="sticky">
     <ul class="flex flex-col">
       <li>
-        <a href="#" class="block px-4 py-2 text-lg font-medium text-blue-500 hover:bg-gray-200">
+        <a href="/" class="block px-4 py-2 text-lg font-medium text-blue-500 hover:bg-gray-200">
           Products
         </a>
       </li>
       <li>
-        <a href="#" class="block px-4 py-2 text-lg font-medium text-blue-500 hover:bg-gray-200">
-          People
+        <a href="/feed" class="block px-4 py-2 text-lg font-medium text-blue-500 hover:bg-gray-200">
+          Feed
         </a>
       </li>
     </ul>

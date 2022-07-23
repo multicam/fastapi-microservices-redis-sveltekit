@@ -1,0 +1,3 @@
+### GET request with a header
+GET http://jmbox.local:3011/feed/2022-07-20
+Accept: application/json

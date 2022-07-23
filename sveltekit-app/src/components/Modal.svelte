@@ -1,5 +1,5 @@
 <script>
-  import { isModalOpen } from '$lib/stores'
+  import { isModalOpen } from '$lib/stores.js'
   import { fade } from 'svelte/transition'
 
   export let title

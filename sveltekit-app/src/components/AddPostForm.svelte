@@ -1,6 +1,6 @@
 <script>
   import clsx from 'clsx'
-  import { isModalOpen, mutated } from '$lib/stores'
+  import { isModalOpen, mutated } from '$lib/stores.js'
 
   let name
   let price

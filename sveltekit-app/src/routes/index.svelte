@@ -1,5 +1,5 @@
 <script context="module">
-  import { fetchProducts } from '$lib/inventory'
+  import { fetchProducts } from '$lib/inventory.js'
 
   export async function load() {
     const products = await fetchProducts()
@@ -11,7 +11,7 @@
   import Modal from '$components/Modal.svelte'
   import AddPostForm from '$components/AddPostForm.svelte'
   import ProductsTable from '$components/ProductsTable.svelte'
-  import { isModalOpen, mutated } from '$lib/stores'
+  import { isModalOpen, mutated } from '$lib/stores.js'
   import { onMount } from 'svelte'
 
   export let initialProducts

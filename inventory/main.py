@@ -17,4 +17,6 @@ def index():
     return {"Hello": "Inventory"}
 
 
+print('----| inventory running...')
+
 app.include_router(router)
